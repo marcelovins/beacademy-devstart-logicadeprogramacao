@@ -1,0 +1,7 @@
+# Exercício 01 - Python
+
+"""nome = input(f'digite seu nome: ')
+peso = input(f'\ndigite seu peso: ')
+altura = input(f'\ndigite sua altura: ')
+
+print(f'olá {nome}, seu peso é {peso} e sua alura é {altura}')"""

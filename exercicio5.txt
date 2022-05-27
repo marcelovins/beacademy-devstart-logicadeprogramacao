@@ -1,0 +1,26 @@
+# Exercício 05 - Python
+
+"""nome = input(f'digite seu nome: ')
+peso = input(f'\ndigite seu peso: ')
+altura = input(f'\ndigite sua altura: ')
+peso1 = float(peso.replace(",", "."))
+altura1 = float(altura.replace(",", "."))
+imc = peso1/altura1**2  # o imc é calculado pela divisão do peso pela altura ao quadrado
+
+print(f'olá {nome}, seu peso é {peso} e sua alura é {altura} e seu imc é = {imc}')
+
+if imc < 19:
+    print('vc está abaixo do peso!')
+
+if 19 <= imc < 25:
+    print('peso normal!')
+
+if 25 >= imc < 30:
+    print('sobrepeso!')
+
+if 30 >= imc < 40:
+    print('obesidade tipo I')
+
+if imc >= 40:
+    print('obesidade mórbida')
+"""

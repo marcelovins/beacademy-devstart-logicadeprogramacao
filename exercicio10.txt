@@ -1,0 +1,7 @@
+# Exercício 10 - Python
+
+"""num1 = 0
+print(num1)
+for num in range(50):
+    num1 += 2
+    print(num1)"""

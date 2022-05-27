@@ -1,0 +1,19 @@
+# Exercício 07 - Python
+
+"""num1 = int(input('digite o primeiro número:'))
+num2 = int(input('digite o segundo número:'))
+operacao = int(input('digite 1 para somar, 2 para subtrair, 3 para dividir ou 4 para multiplicar: '))
+
+if operacao == 1:
+    res = num1 + num2
+elif operacao == 2:
+    res = num1 - num2
+elif operacao == 3:
+    res = num1 / num2
+elif operacao == 4:
+    res = num1 * num2
+else:
+    print('vc precisa digitar entre 1 e 4')
+if operacao < 5:
+    print(f' a resposta é :{res}')
+"""
