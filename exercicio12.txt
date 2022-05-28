@@ -1,0 +1,7 @@
+# Exercício 12 - Python
+
+"""num1 = int(input('digite um número: '))
+num = 0
+while num < 10:
+    num += 1
+    print(num1 * num)"""

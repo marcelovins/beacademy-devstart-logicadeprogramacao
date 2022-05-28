@@ -1,0 +1,21 @@
+# Exercício 14 - Python
+
+"""opcao = input('você deseja realizar esta operação? digite sim ou não: ')
+while opcao != 'sim' and opcao != 'não':
+    print('digite corretamente!')
+    opcao = input('você deseja realizar esta operação? digite sim ou não: ')
+while opcao == 'sim':
+    num1 = int(input('digite o primeiro número: '))
+    num2 = int(input('digite o segundo número: '))
+    res1 = num1 + num2
+    print(res1)
+    res2 = num1 - num2
+    print(res2)
+    res3 = num1 / num2
+    print(res3)
+    res4 = num1 * num2
+    print(res4)
+    opcao = input('você deseja realizar esta operação novamente? digite sim ou não: ')
+    while opcao != 'sim' and opcao != 'não':
+        print('digite corretamente!')
+        opcao = input('você deseja realizar esta operação novamente? digite sim ou não: ')"""

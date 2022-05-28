@@ -1,0 +1,90 @@
+# Exercício 15 - Python
+
+"""class Conta:
+
+    def __init__(self, titular, saldo, conta):
+        self.__conta = conta
+        self.__titular = titular
+        self.__saldo = saldo
+
+
+    @property
+    def conta(self):
+        return self.__conta
+
+    @property
+    def titular(self):
+        return self.__titular
+
+    @property
+    def saldo(self):
+        return self.__saldo
+
+    def extrato(self):
+        return f'Banco Cofre - Operação: {operacao_extrato1, operacao_extrato2, operacao_extrato3, operacao_extrato4,} : ' \
+               f'{valor_op1, valor_op2, valor_op3, valor_op4} \n' \
+               f'- Cliente {self.__titular} \n' \
+               f'- Conta: {self.__conta} \n' \
+               f'- Saldo Atual: {self.__saldo} \n' \
+               f'- Saldo anterior : {saldo_inicial}\n'
+
+    def depositar(self, valor):
+        self.__saldo += valor
+
+    def sacar(self, valor):
+        self.__saldo -= valor
+
+    def transferir(self, valor):
+        self.__saldo -= valor
+
+    def emprestado(self, valor):
+        self.__saldo += valor
+
+
+nome = "Marcos Almeida"
+numero_da_conta = 'agência 01061 / conta: 152036'
+saldo_inicial = 1000
+opcao = input('vc deseja realizar alguma operacao? digite sim ou não: ')
+conta1 = Conta(nome, saldo_inicial, numero_da_conta)
+operacao_extrato1 = ''
+operacao_extrato2 = ''
+operacao_extrato3 = ''
+operacao_extrato4 = ''
+valor_op1 = ''
+valor_op2 = ''
+valor_op3 = ''
+valor_op4 = ''
+if opcao == 'sim':
+    while opcao == 'sim':
+        operacao = input('digite 1-deposito, 2-saque, 3-emprestimo, 4-transferência: ')
+
+        if operacao == '1':
+            operacao_extrato1 = 'deposito'
+            deposito = int(input('digite o valor do deposito: '))
+            valor_op1 = deposito
+            print(conta1.depositar(deposito))
+            opcao = input('vc deseja realizar alguma outra operacao? digite sim ou não: \n')
+        elif operacao == '2':
+            operacao_extrato2 = 'saque'
+            saque = int(input('digite o valor do saque: '))
+            valor_op2 = saque
+            print(conta1.sacar(saque))
+            opcao = input('vc deseja realizar alguma outra operacao? digite sim ou não: \n')
+        elif operacao == '3':
+            operacao_extrato3 = 'emprestimo'
+            emprestimo = int(input('digite o valor do emprestimo: '))
+            valor_op3 = emprestimo
+            print(conta1.emprestado(emprestimo))
+            opcao = input('vc deseja realizar alguma outra operacao? digite sim ou não: \n')
+        elif operacao == '4':
+            operacao_extrato4 = 'transferência'
+            transferir = int(input('digite o valor da transferência: \n'))
+            valor_op4 = transferir
+            print(conta1.transferir(transferir))
+            opcao = input('vc deseja realizar alguma outra operacao? digite sim ou não: ')
+        else:
+            print('vc precisa digitar um dos números disponíveis. reinicie a operacao.')
+
+    print(conta1.extrato())
+else:
+    print('muito obrigado por nos visitar! O Banco Cofre agradece!')"""

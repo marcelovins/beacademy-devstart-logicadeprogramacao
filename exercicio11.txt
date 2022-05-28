@@ -1,0 +1,11 @@
+# Exercício 11 - Python
+
+"""num1 = int(input('digite o menor número do intervalo: '))
+num2 = int(input('digite o maior número do intervalo: '))
+
+if num1 < num2:
+    for num in range(num1, num2):
+        if num % 3 == 0:
+            print(num)
+else:
+    print('o primeiro numero precisa ser menor que o segundo')"""

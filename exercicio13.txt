@@ -1,0 +1,13 @@
+# Exercício 13 - Python
+
+"""nome = input('digite seu nome: ')
+senha = input('digite usa senha: ')
+
+if nome == 'Marcos' and senha == 'paylivre':
+    print(f'seja bem-vindo {nome}!')
+else:
+    while nome != 'Marcos' or senha != 'paylivre':
+        nome = input('Usuario ou senha incorretos, digite o usuario novamente: ')
+        senha = input('Digite sua senha novamente: ')
+        if nome == 'Marcos' and senha == 'paylivre':
+            print(f'seja bem-vindo {nome}!')"""
