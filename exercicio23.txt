@@ -1,0 +1,7 @@
+# Exercício 23 - Python
+
+"""matriz = [[2, 3], [5, 7]]
+s_diagonal_principal = matriz[0][0] + matriz[1][1]
+print(s_diagonal_principal)
+s_diagonal_secundaria = matriz[0][1] + matriz[1][0]
+print(s_diagonal_secundaria)"""

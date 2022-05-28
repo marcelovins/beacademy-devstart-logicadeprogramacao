@@ -1,0 +1,15 @@
+# Exercício 17 - Python
+
+"""idade = 0
+idade18 = 0
+idade60 = 0
+
+while idade != 99:
+    idade = int(input('digite sua idade: '))
+    if idade < 18:
+        idade18 += 1
+    elif idade > 60:
+        idade60 += 1
+
+print(f'numero de pessoas com menos de 18: {idade18}')
+print(f'numero de pessoas com mais de 60: {idade60}')"""

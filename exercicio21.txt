@@ -1,0 +1,21 @@
+# Exercício 21 - Python
+
+"""aluno = []
+nota1 = []
+nota2 = []
+nota_final = []
+
+for i in range(2):
+    aluno.append(input('digite o nome do aluno: '))
+    nota1.append(float(input('digite a nota 1 do aluno: ')))
+    nota2.append(float(input('digite a nota 2 do aluno: ')))
+    if nota1[i] > nota2[i]:
+        nota_final.append(nota1[i])
+    else:
+        nota_final.append(nota2[i])
+
+for i in range(2):
+    if nota_final[i] > 6:
+        print(f'{aluno[i]} está aprovado!')
+    else:
+        print(f'{aluno[i]} está reprovado!')"""

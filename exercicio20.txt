@@ -1,0 +1,15 @@
+# Exercício 20 - Python
+
+"""product = []
+price = []
+
+for num in range(10):
+    product.append(input('digite o produto: '))
+    price.append(input('digite o preço: '))
+
+#print(product)
+#print(price)
+mistura = {product[i]: price[i] for i in range(0, len(product))}
+
+print(mistura)
+"""

@@ -1,0 +1,25 @@
+# Exercício 16 - Python
+
+"""nome = input('digite seu nome: ')
+if nome == '1':
+    print('vc está encerrando esse programa!')
+else:
+    senha = input('digite usa senha: ')
+
+if nome == 'Marcos' and senha == 'paylivre':
+    print(f'seja bem-vindo {nome}!')
+elif nome == '1' or senha == '1':
+        print('vc está encerrando esse programa!')
+else:
+    while nome != 'Marcos' or senha != 'paylivre':
+        nome = input('Usuario ou senha incorretos, digite o usuario novamente: ')
+        if nome == '1':
+            print('vc está encerrando esse programa!')
+            break
+        senha = input('Digite sua senha novamente: ')
+        if nome == '1' or senha == '1':
+            print('vc está encerrando esse programa!')
+            break
+        elif nome == 'Marcos' and senha == 'paylivre':
+            print(f'seja bem-vindo {nome}!')
+"""

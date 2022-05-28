@@ -1,0 +1,7 @@
+# Exercício 18 - Python
+
+"""num1 = 0
+for num in range(101):
+    num1 += num
+
+print(f'a soma é: {num1}')"""

@@ -1,0 +1,23 @@
+# Exercício 22 - Python
+
+"""nome = []
+rg = []
+cpf = []
+endereco = []
+telefone = []
+cadastro_clientes = []
+
+for i in range(2):
+    nome.append(input('digite o nome do cliente: '))
+    rg.append(input('digite o rg do cliente: '))
+    cpf.append(input('digite o cpf do cliente: '))
+    endereco.append(input('digite o endereço do cliente: '))
+    telefone.append(input('digite o telefone do cliente: '))
+    cadastro_clientes.append(nome)
+    cadastro_clientes.append(cpf)
+    cadastro_clientes.append(rg)
+    cadastro_clientes.append(endereco)
+    cadastro_clientes.append(telefone)
+
+print(cadastro_clientes)
+#print(cadastro_clientes[2][1])"""
