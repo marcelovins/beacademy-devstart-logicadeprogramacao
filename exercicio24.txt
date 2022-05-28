@@ -1,0 +1,12 @@
+# Exercício 24 - Python
+
+"""import math
+
+raio = float(input('informe o raio do círculo: '))
+if raio < 0:
+    print('o valor não pode ser negativo, tente novamente!')
+else:
+    area = math.pi * raio ** 2
+    perimeter = 2 * math.pi * raio
+    print(f'A área é de: {area}')
+    print(f'O perímetro é de: {perimeter}')"""

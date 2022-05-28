@@ -1,0 +1,31 @@
+# Exercício 25 - Python
+
+"""salario = float(input('digite o seu salário: '))
+
+if salario < 1903.98:
+    print('Você é isento!')
+elif 1903.98 < salario < 2826.65:
+    print(f'Salário bruto: R${salario}')
+    imposto = salario * 0.075
+    print(f'Alíquota: R${imposto}')
+    s_final = salario - imposto
+    print(f'Salário líquido: R${s_final}')
+elif 2826.65 < salario < 3751.05:
+    print(f'Salário bruto: R${salario}')
+    imposto = salario * 0.15
+    print(f'Alíquota: R${imposto}')
+    s_final = salario - imposto
+    print(f'Salário líquido: R${s_final}')
+elif 3751.05 < salario < 4664.68:
+    print(f'Salário bruto: R${salario}')
+    imposto = salario * 0.225
+    print(f'Alíquota: R${imposto}')
+    s_final = salario - imposto
+    print(f'Salário líquido: R${s_final}')
+else:
+    print(f'Salário bruto: R${salario}')
+    imposto = salario * 0.275
+    print(f'Alíquota: R${imposto}')
+    s_final = salario - imposto
+    print(f'Salário líquido: R${s_final}')
+"""
